@@ -1,0 +1,35 @@
+Certainly! Here's a clean, formal **problem statement** you can use for a project, report, or assignment:
+
+---
+
+### 🔍 **Problem Statement: Tech Gadget Purchase Prediction Using Logistic Regression**
+
+Many technology companies face challenges in accurately identifying potential buyers for newly launched gadgets. Understanding customer behavior and preferences is critical to optimizing marketing efforts and maximizing product reach.
+
+The objective of this project is to **build a binary classification model using logistic regression** to predict whether a person is likely to buy a newly launched tech gadget.
+
+The model will be trained on a dataset containing individual-level data with the following features:
+
+* **Age Group** (Ordinal categorical)
+* **Interest in Technology** (Scale: 1 = Not interested, 5 = Very interested)
+* **Past Purchase Behavior** (Ordinal categorical)
+* **Monthly Income** (Numeric, normalized)
+* **Social Media Engagement with Tech Content** (Scale: 1 = Not engaged, 5 = Very engaged)
+
+The target variable:
+
+* **Will Buy**:
+
+  * `1` = Likely to buy
+  * `0` = Not likely to buy
+
+The solution involves:
+
+* Preprocessing the dataset (encoding categorical variables and normalizing numeric ones)
+* Training a **logistic regression model**
+* Evaluating the model using accuracy and confusion matrix
+* Optionally, building a user interface to simulate predictions based on user input
+
+---
+
+Would you also like the code for training + evaluating this logistic regression model?
